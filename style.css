@@ -1,0 +1,77 @@
+body {
+  background-image: url('img/noname.jpg');
+  background-size: cover;
+  margin: auto;
+  width: 80%;
+}
+
+hr {
+  color: white;
+}
+
+header {
+  margin-top: 20px;
+}
+
+#logo {
+  height: 100px;
+  vertical-align: middle;
+}
+
+#logo-text {
+  color: white;
+  font-size: 30px;
+}
+
+header > h2 {
+  color: white;
+}
+
+header > h2 > span {
+  background-color: orange;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.email-row {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.email-row.read {
+  background: white;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.email-text {
+  color: gray;
+}
+
+.email-text::before {
+  content: "- ";
+
+}
+
+.email-text::after {
+  content: "... ";
+}
+
+footer > p {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#footer-span {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+}
